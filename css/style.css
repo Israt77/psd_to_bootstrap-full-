@@ -70,8 +70,12 @@ header{
 	color:white;
 	transform: scaleX(-1);
 }
-.s_img{}
+.s_img{
+	width: 300px;
+	font-size: 50px;
+}
 .s_img img{
+	width: 100%;
 }
 /*slider start*/
 /*features start*/
@@ -157,24 +161,27 @@ header{
 	background-color: white;
 }
 .c_icon{
-  
+ 
 }
 .c_icon li i{
 	width: 35px;
 	height:36px;
 	border-radius: 5px;
     display: inline-block;
-    line-height: 36px;
+    line-height: 35px;
     color: #010101;
 	background-color: #fcdb00;
-	
+	transition: .3s;	
+}
+.c_icon li i:hover{
+	background-color: white;
 }
 /*contact end*/
 
 /*footer start*/
 footer{
 	padding-bottom: 100px;
-   background-color: #010101;
+    background-color: #010101;
 }
 .f_1{
 	color: white;
